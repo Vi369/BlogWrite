@@ -25,7 +25,7 @@ databaseConnection().then( ()=>{
     )
 
     app.listen(PORT, ()=>{
-        console.log(`Server in running on http//localhost:${PORT}`)
+        console.log(`Server in running on http://localhost:${PORT}`)
     })
 }).catch((error)=>{
     console.log('Mongo Db connection Failed:',error)
